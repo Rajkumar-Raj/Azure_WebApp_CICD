@@ -1,5 +1,7 @@
 name: Build and deploy .NET Core application to Web App RajTestwebapp1
 on:
+  workflow_call:
+  workflow_dispatch:
   push:
     branches:
     - master
